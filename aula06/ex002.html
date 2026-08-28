@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa...</title>
     <style>
+        /* Comentário em CSS */
         body{
             background-color: rgb(0, 0, 255);
             color: white;
@@ -16,13 +17,12 @@
     </style>
 </head>
 <body>
-    
+    <!--Comentário em HTML -->
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem'); //aparece mensagem de alerta
-        window.confirm('Está gostando de JavaScript?') //aperece mensagem com confirma e cancela
-        window.prompt('Qual o seu nome?') //faz uma pergunta
+        var nome = window.prompt('Qual o seu nome?') //guardando o dado
+        window.alert('É um grande prazer, ' + nome + '!') //mostrando o dado
     </script>
 </body>
 </html>
